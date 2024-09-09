@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #222f3e;
+}
+
+header span {
+  margin: 5px 10px;
+}
+
+.logo-top {
+  height: 40px;
+  padding: 10px 35px;
+}
+
+.topbar-menu {
+  background-color: #3c526b;
+  padding: 10px 35px;
+  color: aliceblue;
+}
+
+main {
+  padding: 20px;
+  background-color: rgba(211, 211, 211, 0.582);
+  text-align: center;
+  object-fit: contain;
+}
+main div {
+  color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.background-orange {
+  background-color: rgba(255, 136, 0, 0.952);
+  box-shadow: 5px 5px 5px 0px rgba(73, 58, 38, 0.527);
+  border-radius: 10px;
+}
+
+#background-img-top {
+  background-image: url("W1D4/assets/bg-image.png");
+  max-width: 100vw;
+  height: 120px;
+  box-shadow: 5px 5px 5px 0px rgba(11, 16, 20, 0.151);
+  border-radius: 25px;
+}
+
+.background-grey {
+  width: auto;
+  height: auto;
+  background-color: lightgrey;
+  box-shadow: 10px 10px 5px 0px rgba(11, 16, 20, 0.151);
+  border-radius: 25px;
+  margin-bottom: 45px;
+}
+.title-banner {
+  text-align: left;
+}
+.title-banner h2 {
+  display: inline;
+  padding-right: 20px;
+  color: black;
+}
+
+.title-banner span {
+  font-size: 16px;
+  font-weight: 600;
+  color: lightseagreen;
+}
+.img-container-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 0;
+}
+
+.img-rounded {
+  width: 300px;
+  height: 380px;
+  object-fit: cover;
+  padding: 0;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px 0px rgba(11, 16, 20, 0.151);
+}
+
+.img-big-box {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 5px 0px rgba(11, 16, 20, 0.151);
+  border-radius: 25px;
+}
+.under-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.under-title h3 {
+  padding: 0px;
+  margin: 0px 10px;
+  color: black;
+}
+
+.under-title span {
+  color: lightseagreen;
+}
+footer {
+  background-color: #222f3e;
+  text-align: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-footer {
+  height: auto;
+  width: 150px;
+  padding-top: 20px;
+}
+.footer-menu {
+  background-color: #3c526b;
+  padding: 30 0;
+  color: aliceblue;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-menu a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.linktop {
+  color: aliceblue;
+  font-size: 20px;
+  margin-top: 15px;
+}
