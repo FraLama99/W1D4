@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #222f3e;
+}
+
+header span {
+  margin: 5px 10px;
+}
+
+.logo-top {
+  height: 40px;
+  padding: 10px 35px;
+}
+
+.topbar-menu {
+  background-color: #3c526b;
+  padding: 10px 35px;
+  color: aliceblue;
+}
+
+main {
+  padding: 20px;
+  background-color: green;
+  text-align: center;
+}
+main div {
+  background-color: orange;
+  color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+#background-img-top {
+  background-image: url("W1D4/assets/bg-image.png");
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,112 @@
+ <div id="carosello">
+      <div class="container">
+        <h2>galleria</h2>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+      </div>
+      <div class="container">
+        <h2>galleria</h2>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+      </div>
+      <div class="container">
+        <h2>galleria</h2>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+        <div class="gallery">
+          <img src="W1D4\assets\img_2.jpg" alt="aaaaaaaa" />
+          <p>nome prodotto</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    class
+
+
+
+
+
+
+
+
+    .container {
+  width: 600px;
+  height: 800px;
+  margin: 20px;
+  padding: 40px 60px 40px 60px;
+  background-color: green;
+  display: inline-block;
+}
+
+.gallery {
+  width: 290px;
+  height: 380px;
+  display: inline-block;
+  position: relative;
+  background-color: blue;
+  margin: 0px;
+  padding: 0px;
+}
+
+.gallery img {
+  width: 280px;
+  height: 280px;
+  margin: 0px;
+  padding: 0px;
+}
+.new {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.new img {
+  width: 30px;
+  height: 30px;
+}
+#carosello {
+  width: 2520px;
+  height: 880px;
+  margin: 20px;
+  background-color: aqua;
+}
