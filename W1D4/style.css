@@ -33,10 +33,21 @@ main div {
   margin-bottom: 20px;
   padding: 10px;
 }
+.centratura {
+  margin: auto;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: cover; */
+}
 .background-orange {
   background-color: rgba(255, 136, 0, 0.952);
   box-shadow: 5px 5px 5px 0px rgba(73, 58, 38, 0.527);
   border-radius: 10px;
+  max-width: 1580px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #background-img-top {
@@ -45,6 +56,10 @@ main div {
   height: 120px;
   box-shadow: 5px 5px 5px 0px rgba(11, 16, 20, 0.151);
   border-radius: 25px;
+  max-width: 1580px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .background-grey {
@@ -54,6 +69,10 @@ main div {
   box-shadow: 10px 10px 5px 0px rgba(11, 16, 20, 0.151);
   border-radius: 25px;
   margin-bottom: 45px;
+  max-width: 1580px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .title-banner {
   text-align: left;
@@ -88,10 +107,15 @@ main div {
 }
 
 .img-big-box {
-  max-width: 100%;
   height: auto;
   box-shadow: 5px 5px 5px 0px rgba(11, 16, 20, 0.151);
   border-radius: 25px;
+  max-height: 487.766px;
+  max-width: 100%;
+}
+.img-big-box img {
+  max-width: 100%;
+  height: auto;
 }
 .under-title {
   display: flex;
