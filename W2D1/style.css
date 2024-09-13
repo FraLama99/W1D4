@@ -91,7 +91,7 @@ img {
   background-color: white;
   display: flex;
   height: 50px;
-  width: 300px;
+  width: 200px;
   z-index: 1;
   color: black;
   align-items: center;
@@ -102,11 +102,13 @@ img {
   transition: 2s;
   padding-left: 10px;
   padding-right: 10px;
+  text-decoration: none;
 }
 .puntini {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-decoration: none;
 }
 .contorno-img:hover .link-slider {
   transform: translateY(-30px);
